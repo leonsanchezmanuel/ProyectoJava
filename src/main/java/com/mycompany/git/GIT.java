@@ -3,14 +3,18 @@ package ejemplo3_5;
 public class Ejemplo3_5 {
 
     public static void main(String[] args) {
-        // Mensaje de inicio / saludo
-        System.out.println("¡Hola! Bienvenido a la aplicación de prueba con Git.");
+        // Nuevo saludo modificado en la rama de pruebas
+        System.out.println("=========================================");
+        System.out.println("  ¡Qué pasa! Bienvenido a la versión 2.0 ");
+        System.out.println("=========================================");
         
-        // Aquí iría la lógica principal de tu programa
-        System.out.println("Ejecutando operaciones del proyecto...");
+        // Nueva funcionalidad añadida
+        int a = 5;
+        int b = 10;
+        System.out.println("Probando nueva función: " + a + " + " + b + " = " + (a + b));
         
-        // Mensaje de despedida
-        System.out.println("¡Hasta pronto! Programa finalizado correctamente.");
+        // Nueva despedida
+        System.out.println("¡Todo listo! Cerrando el chiringuito...");
     }
     
-}
+} 
